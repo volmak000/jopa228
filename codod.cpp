@@ -27,10 +27,10 @@ public:
 Singleton* Singleton::instance = nullptr;
 
 int main() {
-    // Отримання єдиного екземпляра класу
+    // Отримання єдиного екземпляра класуd
     Singleton* singletonInstance = Singleton::getInstance();
 
-    // Виклик методу класу
+    // Виклик методу класуd
     singletonInstance->showMessage();
 
     // Спроба створити ще один екземпляр класу
